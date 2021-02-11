@@ -40,10 +40,10 @@ class MainDrawer extends StatelessWidget {
             height: 20,
           ),
           buildLink('Meals', Icons.restaurant, () {
-            Navigator.of(context).pushNamed('/');
+            Navigator.of(context).pushReplacementNamed('/');
           }),
           buildLink('Filters', Icons.filter_list, () {
-            Navigator.of(context).pushNamed('/filters');
+            Navigator.of(context).pushReplacementNamed('/filters');
           })
       
         ],
